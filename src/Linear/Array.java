@@ -1,4 +1,4 @@
-package Linear.Arrays;
+package Linear;
 
 public class Array {
     //Attributes

@@ -1,19 +1,16 @@
 package Linear;
 
-import Linear.LinkedLists.LinkedList;
+import Linear.Stacks.ExpressionsEvaluator;
+import Linear.Stacks.MinStack;
+import Linear.Stacks.Stack;
+import Linear.Stacks.TwoStacks;
 
 public class Main {
     public static void main(String[] args) {
-        var linkedList = new LinkedList();
+       var stack = new MinStack();
 
-        linkedList.addFirst(10); //A
-        linkedList.addFirst(20); //B
-        linkedList.addFirst(30); //C
-        linkedList.addFirst(40); //D
-        linkedList.addFirst(50); //E
-//        linkedList.addFirst(60); //F
+       stack.pop();
 
-        linkedList.printMiddle();
 
     }
 }
