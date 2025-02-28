@@ -1,4 +1,4 @@
-package Linear;
+package Linear.LinkedList;
 
 import java.util.NoSuchElementException;
 
